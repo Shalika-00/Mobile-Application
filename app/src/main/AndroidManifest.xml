@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sqliteapp">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/wallet"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/wallet_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SQLiteApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".UpdateBudget"
+            android:exported="false" />
+        <activity
+            android:name=".BudCategory"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayBudget"
+            android:exported="false" />
+        <activity
+            android:name=".CreateBudgetUI"
+            android:exported="false" />
+        <activity
+            android:name=".BudExpenses"
+            android:exported="false" />
+        <activity
+            android:name=".Budget"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayIncomeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryIncome"
+            android:exported="false" />
+        <activity
+            android:name=".Update_details"
+            android:exported="false" />
+        <activity
+            android:name=".Modify_Income"
+            android:exported="false" />
+        <activity
+            android:name=".Income"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateExpenseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayExpenseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Modify_Expense"
+            android:exported="false" />
+        <activity
+            android:name=".ExpenseCategory"
+            android:exported="false" />
+        <activity
+            android:name=".Expense"
+            android:exported="false" />
+        <activity
+            android:name=".GoalModelClass"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".GoalAdaptor"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".GoalCategory"
+            android:exported="false" />
+        <activity
+            android:name=".ViewGoal"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewGoal"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateGoal"
+            android:exported="false" />
+        <activity
+            android:name=".GoalHome"
+            android:exported="false" />
+        <activity
+            android:name=".Goal"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteGoal"
+            android:exported="false"
+            android:label="@string/title_activity_delete_goal"
+            android:theme="@style/Theme.SQLiteApp.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Homelog"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_details"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    android:background="@drawable/purple_back">
+
+
+  <TextView
+      android:id="@+id/amount_u"
+      android:layout_width="123dp"
+      android:layout_height="45dp"
+      android:layout_marginStart="36dp"
+      android:layout_marginTop="32dp"
+      android:text="@string/amounttxt"
+      android:textColor="#1A2FA5"
+      android:textSize="20sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btndate" />
+
+  <TextView
+      android:id="@+id/date_u"
+      android:layout_width="123dp"
+      android:layout_height="45dp"
+      android:layout_marginStart="36dp"
+      android:layout_marginTop="68dp"
+      android:text="@string/date_m"
+      android:textColor="#1A2FA5"
+      android:textSize="20sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/category_u" />
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:ignore="MissingConstraints">
+
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <com.google.android.material.appbar.MaterialToolbar
+      android:id="@+id/topAppBar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="@color/lightgrey"
+      android:onClick="backToDisplayBudget"
+      app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+      app:title="Update"
+      tools:ignore="MissingConstraints" />
+
+
+  <!-- <Button
+       android:id="@+id/catBtn"
+       android:layout_width="168dp"
+       android:layout_height="48dp"
+       android:layout_marginStart="108dp"
+       android:layout_marginTop="4dp"
+       android:onClick="switchToCategory"
+       android:text="@string/btncategory"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/category_u" />-->
+
+
+
+  <TextView
+      android:id="@+id/category_u"
+      android:layout_width="123dp"
+      android:layout_height="45dp"
+      android:layout_marginStart="40dp"
+      android:layout_marginTop="20dp"
+      android:text="@string/category_m"
+      android:textColor="#1A2FA5"
+      android:textSize="20sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/topAppBar" />
+
+  <Button
+      android:id="@+id/btndate"
+      android:layout_width="171dp"
+      android:layout_height="48dp"
+      android:layout_marginStart="120dp"
+      android:layout_marginTop="4dp"
+      android:onClick="openDatePicker"
+      android:text="@string/date"
+      android:backgroundTint="@color/purple_500"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/date_u" />
+
+  <EditText
+      android:id="@+id/amount_update"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="100dp"
+      android:layout_marginTop="4dp"
+      android:background="@drawable/border"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:minHeight="48dp"
+      android:text="@string/amount"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/amount_u" />
+
+  <Button
+      android:id="@+id/updateBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="44dp"
+      android:backgroundTint="#5FD564"
+      android:onClick="onClickSave"
+      android:text="@string/btnModiEx"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/amount_update" />
+
+  <TextView
+      android:id="@+id/tablecat"
+      android:layout_width="117dp"
+      android:layout_height="29dp"
+      android:layout_marginStart="124dp"
+      android:layout_marginTop="4dp"
+      android:text="@string/category_m"
+      android:textSize="20sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/category_u" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

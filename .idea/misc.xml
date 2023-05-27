@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_budexpenses.xml" value="0.15946985891406584" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_budget.xml" value="0.2099187687045746" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_category.xml" value="0.18554938007695596" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_create_budget_ui.xml" value="0.22333333333333336" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_display_budget.xml" value="0.25" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_display_expense_details.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_display_income_details.xml" value="0.1" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_expense.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_expenses.xml" value="0.22333333333333336" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_income.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_login.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_modify_expense.xml" value="0.16666666666666666" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_test.xml" value="0.18554938007695596" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_update_budget.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/activity_update_expense_details.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/fragment_blank.xml" value="0.18554938007695596" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/goal_activity_category.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/goal_activity_main.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/nav_header.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/layout/update_goal.xml" value="0.2129115006412997" />
+        <entry key="..\:/SLIIT/year 02 sem 02/MAD_Labs/MADSQLite/app/src/main/res/menu/my_navigation.xml" value="0.2129115006412997" />
+        <entry key="..\:/Users/chabi/Desktop/MADPROJECT/app/src/main/res/drawable/custom_btn.xml" value="0.218" />
+        <entry key="..\:/Users/chabi/Desktop/MADPROJECT/app/src/main/res/layout/activity_update_budget.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chabi/Desktop/MADPROJECT/app/src/main/res/layout/new_goal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chabi/Desktop/MADPROJECT/app/src/main/res/layout/test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chabi/Desktop/MADPROJECT/app/src/main/res/layout/update_goal.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

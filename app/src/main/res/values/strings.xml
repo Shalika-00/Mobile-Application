@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">SQLiteApp</string>
+    <string name="amount">Amount</string>
+    <string name="inputBudName">inputBudName</string>
+    <string name="update_budget_header_txt">Update Budget</string>
+    <string name="budget_name_txtV">Budget Name</string>
+    <string name="budget_completion_date">Completion Date</string>
+    <string name="save_btn_text">Save</string>
+    <string name="date_picker_btn_txt">Button</string>
+    <string name="back_img_btn">TODO</string>
+    <string name="new_budget_headet_txt">New Budget</string>
+    <string name="budname_hint_newbudget">BudName</string>
+    <string name="category_txtV">Category</string>
+    <string name="none">None</string>
+    <string name="notifications_txt">Notifications</string>
+    <string name="_90_completion">90% completion</string>
+    <string name="budget_overspent_txt">Budget overspent</string>
+    <string name="create_btn_txt">create</string>
+    <string name="select_category_btn_txt">Select Category</string>
+    <string name="display_budget_viewTxt">Display Budget</string>
+    <string name="deleteBtnTxt">Delete</string>
+    <string name="completion_date">Completion date</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="updateBtnTxt">Update</string>
+    <string name="currencyTxtv">Currency</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_m">Date</string>
+    <string name="currentInctxt">Current Income</string>
+    <string name="currentInc">0.00</string>
+    <string name="amounttxt">Amount</string>
+    <string name="amountVal">0.00</string>
+    <string name="btncategory">Category</string>
+    <string name="btnUpdate">Modify Income</string>
+    <string name="btnDelete">Delete Income</string>
+    <string name="btnOk">Okay</string>
+    <string name="category_m">Category</string>
+    <string name="btnModiEx">Update</string>
+    <string name="btnSearch">Search Bar</string>
+    <string name="date">June 05 2022</string>
+    <string name="select">Select category</string>
+    <string name="currentExptxt">Current Expenses</string>
+    <string name="currentEx">0.00</string>
+
+
+
+    <string name="title_activity_view_goal">ViewGoal</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="createBtnTxt">Create</string>
+    <string name="categoryBtnTxt">Category</string>
+    <string name="goalDescriptionTxt">Goal Description</string>
+    <string name="addSavingsTxt">Add Savings</string>
+    <string name="dateBtn">JAN 01 2022</string>
+    <string name="goalAmountTxt">Goal Amount</string>
+    <string name="estimatedDateTxt">Estimated Date</string>
+    <string name="nameTxt">Name</string>
+    <string name="remainingTimeTxt">Remaining Time</string>
+    <string name="remainingAmountTxt">Remaining amount</string>
+    <string name="nameProgressTxt">Goal Completion</string>
+    <string name="remainTimeValueTxt"></string>
+    <string name="remainingAmountValueTxt"></string>
+    <string name="goalDateValueTxt"></string>
+    <string name="goalDate">Goal Date</string>
+    <string name="categoryTxt">Category</string>
+
+
+    <string name="updateBtn">Update</string>
+    <string name="deleteBtn">delete</string>
+    <string name="title_activity_delete_goal">DeleteGoal</string>
+    <string name="display_goal_viewTxt">Add New Goal</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+    <string name="password">password</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="currency">Currency</string>
+    <string name="confirm_pin">Confirm Pin</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
